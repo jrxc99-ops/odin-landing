@@ -1,0 +1,44 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  height: 50px;
+  color: white;
+  font-family: arial;
+}
+
+.left-side {
+  margin-left: 200px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight:bolder;
+}
+
+.right-side {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  height: 50px;
+  width: 300px;
+  font-size: 18px;
+  
+  
+
+}
+
+.right-side div a{
+  display: flex;
+  align-items: center;
+  height:fit-content;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.title, 
+.nav-tab {
+  cursor: pointer;
+}
